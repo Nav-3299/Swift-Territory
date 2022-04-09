@@ -53,7 +53,7 @@ repeat
     else
     {
       diceroll = Int.random (in:1...6)
-      flag += 1  // to end game is 1 or 6 don't occur in first 5 turns
+      flag += 1  // to end game if 1 or 6 don't occur in first 5 turns
     }
     
     //to stop the execution even if flag != 5
